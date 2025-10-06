@@ -1,6 +1,6 @@
 # web-handmade-from-jxing-builder-v1
 
-okee coba update font nyaa
+coba tambah satu section lagi di /, bebas kamu deh mau apa
 
 ## 🚀 Generated with AI
 
