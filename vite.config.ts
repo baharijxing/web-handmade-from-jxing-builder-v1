@@ -11,12 +11,12 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  server: {
-    // Serve from root, let Nginx handle path prefix
-    // Using base path in dev mode causes Vite to only serve from that path
-    origin: process.env.VITE_ORIGIN || undefined,
-    host: '0.0.0.0',
-    // Allow wildcard subdomain access for preview servers
-    allowedHosts: ['.jxing-builder.jxing.my', 'localhost', '127.0.0.1'],
-  }
+  // server: {
+  //   // Serve from root, let Nginx handle path prefix
+  //   // Using base path in dev mode causes Vite to only serve from that path
+  //   origin: process.env.VITE_ORIGIN || undefined,
+  //   host: '0.0.0.0',
+  //   // Allow wildcard subdomain access for preview servers
+  //   allowedHosts: ['.jxing-builder.jxing.my', 'localhost', '127.0.0.1'],
+  // }
 })
